@@ -1,2 +1,1 @@
-web: export FLASK_APP=main.py
-flask run
+web: gunicorn -k eventlet main:app
