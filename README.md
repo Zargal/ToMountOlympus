@@ -1,0 +1,2 @@
+# ToMountOlympus
+If you want to play the game, and you trust me (which, to be fair, I don't trust myself to have not accidentally created some major security hole), you can download the zip file off of GitHub, extract it, and run the run.bat file to host the server locally. You then just need to go to localhost:5000 to see the website. You'll need to have python 3 installed and use Windows (and probably other requirements I'm unaware of); I'm bad at this. It seems to be slower than normal - I probably did something stupid.
