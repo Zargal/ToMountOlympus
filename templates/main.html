@@ -10,6 +10,7 @@
     window.socket = io.connect();
     var sid;
     socket.on('connect', function () {
+        console.log("Connected");
         sid = socket.id;
     });
     var name = "";
@@ -37,6 +38,7 @@
         Math.seedrandom('');
         let ki6 = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
         info = await getInfo() + ki6;
+        alert(info);
         Math.seedrandom();
 
         $('a#createRoom').bind('click', function () {
