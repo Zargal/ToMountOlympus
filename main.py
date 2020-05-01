@@ -105,7 +105,7 @@ app_socket = SocketIO(app)
 
 # My paltry attempts at security - does nothing, really - really couldn't figure out anything better
 # Mainly obfuscation
-passw = "0scp0Gfs4B1hs7"
+passw = "".join(sys_random.choices(string.ascii_letters + string.digits, k=45))
 
 games = []
 players = []
