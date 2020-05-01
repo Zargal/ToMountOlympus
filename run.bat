@@ -1,0 +1,1 @@
+py -3 -m venv venv && CALL venv\Scripts\activate && pip3 install -r requirements.txt && set FLASK_APP=main.py && set FLASK_ENV=development && flask run
